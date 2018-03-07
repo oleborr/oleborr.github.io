@@ -1,0 +1,109 @@
+@media screen and (max-width: 1080px) {
+
+	
+	.menu {
+		z-index: 3;
+		position: fixed;
+		display: block;
+		top: 0;
+		padding-top: 15px;
+	}
+
+	.menu.active{
+		background: #fff;
+	}
+
+	.menu__icon{
+		display: inline-block;
+		text-align: right;
+		margin-right: 15px;
+	}
+	
+	.menu__links {
+		background-color: #000;
+		width: 100vw;
+		height: 100vh;
+	}
+	
+	.menu__list {
+		padding: 0;
+	}
+
+	.menu__list-item .btn {
+		text-align: center;
+		margin-left: 0px;
+	}
+
+	.header {
+		display: flex;
+		flex-direction: column;
+		background: none;
+	}
+
+	.header__item {
+		display: none;
+	}
+	
+	.header__title {
+		margin-top: 90px;
+	}
+
+	.header__title p {
+		font-size: 12px;
+	}
+	
+	.select-plan {
+		margin-top: 20px;
+	}
+
+	.select-box {
+		flex-direction: column; 
+	}
+	
+	.select-box__desc {
+		color: #999;
+	}
+	.select-box__item {
+		margin: 15px 0;
+	}
+
+	.control__title {
+		text-align: center;
+	}
+
+	.control__btn-link {
+		color: #999;
+	}
+
+	.footer {
+		padding-top: 60px;
+	}
+
+	.footer__navigation {
+		display: none;
+	}
+
+	.footer__item {
+		flex-direction: column;
+	}
+
+	.footer__end {
+		flex-direction: column;
+	}
+
+	.footer__end-copy p {
+		text-align: center;
+		font-size: 14px;
+		margin-top: 45px;
+	}
+	
+	.footer__end-social {
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+
+	.footer__end-social a {
+		font-size: 25px;
+		margin: 0 20px;
+	}
+}
